@@ -1,0 +1,13 @@
+*.pyc
+.yarnrc
+arches.log
+chndemo/media/packages
+chndemo/logs/*.log
+chndemo/uploadedfiles
+chndemo/settings_local.py
+chndemo/tileserver/cache
+chndemo/node_modules
+*.djcache
+.DS_Store
+*.sublime*
+.vscode/
