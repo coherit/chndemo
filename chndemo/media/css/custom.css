@@ -1,0 +1,78 @@
+/* Add here all your css styles (customizations) */
+
+html {font-size: 16px;} 
+
+body {
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #333;
+}
+
+p {margin-bottom: 1.15rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: 'Prata', serif !important;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {font-size: 3.157em;}
+
+h3 {font-size: 2.369em;}
+
+h4 {font-size: 1.777em;}
+
+h5 {font-size: 1.333em;}
+
+small, .text_small {font-size: 0.75em;}
+
+#rev_slider_26_1 .tp-caption {
+
+text-shadow: 2px 2px #343434;
+    
+}
+
+/*Footer Links should be smaller */
+#contacts-section h4 {
+    margin: 0px;
+    font-family: Lato, sans-serif !important;
+}
+
+/* Colors */
+a {
+  color: #117dbf;
+  outline: none;
+}
+a:focus,
+a:hover {
+  color: #f2522e;
+}
+.u-go-to-v1:hover, .u-go-to-v1:focus:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f2811d;
+}
+.u-header__section--dark .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
+.u-header__section--dark .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover,
+.u-header__section--dark--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
+.u-header__section--dark--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover,
+.u-header__section--primary .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
+.u-header__section--primary .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover,
+.u-header__section--primary--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
+.u-header__section--primary--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:hover {
+  color: #f2522e;
+}
+/* Responsive tweaks */
+@media (max-width: 576px) {
+    .navbar-brand img {
+        width: 75%;
+    }
+}

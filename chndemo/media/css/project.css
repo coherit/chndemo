@@ -1,0 +1,283 @@
+/* Overrides */
+body {
+    background-color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.65;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased!important
+}
+
+p {margin-bottom: 1.15rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: 'Prata', serif !important;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {font-size: 3.157em;}
+
+h3 {font-size: 2.369em;}
+
+h4 {font-size: 1.777em;}
+
+h5 {font-size: 1.333em;}
+
+small, .text_small, .nano>.nano-content {font-size: 0.8em;}
+
+
+.ep-tools h5 {
+    margin: 10px;
+}
+
+#container.cls-container.arches-login {
+    background: rgb(0,0,0); 
+}
+.img-login {
+    background-image: url("../images/redshutters.jpg") !important;
+}
+.resource-editor-tree {
+    background: #f3fafe;
+}
+.graph-designer-tab-container .nav-tabs>li.active>a {
+    background: #f3fafe;
+    border: 1px solid #f4f4f4;
+}
+.left-panel-overflow {
+    height: calc(100vh - 225px);
+    overflow-y: auto;
+    background: #f3fafe;
+}
+graph-designer-tab-container .nav-tabs>li:not(.active)>a:hover {
+    cursor: pointer;
+    color: #666;
+    background: #f3fafe;
+}
+/* Admin nav */
+.brand-icon {
+    height: 40px !important;
+    width: 40px !important;
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+#mainnav {
+    background-color: #a6216a;
+}
+#mainnav-container {
+    padding-top: 50px;
+    background-color: #a6216a;
+}
+#mainnav .list-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    color: #f2811d
+}
+#mainnav .list-divider {
+    border-color: rgba(255,255,255, 1);
+    margin: 10px 0
+}
+#mainnav-menu>.active {
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+    background-color: #a6216a;
+}
+@media (min-width: 768px){
+    .navbar-header:before {
+        height: 50px;
+        background-color: #a6216a;
+    }
+    .menu-popover .single-content {
+        color: #fff;
+        background-color: #a6216a;
+    }
+    .menu-popover .sub-menu ul {
+        background-color: #511034;
+    }
+    .menu-popover .sub-menu ul ul {
+        background-color: #260819;
+    }
+    #container.mainnav-sm .shortcut-grid:hover {
+        box-shadow: inset 4px 0 0 0 #117dbf;
+        -webkit-transition: background-color .2s, padding-left .3s, box-shadow .4s;
+        transition: background-color .2s, padding-left .3s, box-shadow .4s
+    }
+    #container.mainnav-sm .shortcut-grid:hover,
+    #container.mainnav-sm .popover.mainnav-shortcut {
+        background-color: #a6216a;
+        color: #fff
+    }
+    #container.mainnav-sm #mainnav-menu a:hover {
+        box-shadow: inset 4px 0 0 0 #117dbf
+    }
+    #container.mainnav-sm #mainnav .mainnav-widget>.show-small a {
+        display: block;
+        color: #abb1b7;
+        padding: 12px 0 12px 18.5px
+    }
+    #container.mainnav-sm #mainnav .mainnav-widget>.show-small a:hover {
+        color: #fff;
+        box-shadow: inset 4px 0 0 0 #117dbf;
+        -webkit-transition: background-color .2s, padding-left .3s, box-shadow .4s;
+        transition: background-color .2s, padding-left .3s, box-shadow .4s
+    }
+     #container.mainnav-sm #mainnav .mainnav-widget .hover {
+        color: #fff;
+        background-color: #a6216a;
+    }
+    .menu-popover>.popover-title {
+        border: 0;
+        border-radius: 0;
+        padding: 14px 20px;
+        background-color: #a6216a;
+        font-size: 1.05em;
+        position: relative;
+        z-index: 5;
+        color: #fff
+    }
+    .menu-popover .mainnav-widget-content {
+        background-color: #a6216a
+    }
+}
+#mainnav-menu a {
+    color: white;
+    padding: 12px 20px;
+}
+#mainnav-menu>li>a.hover {
+    color: #fff;
+    background-color: #a6216a;
+    box-shadow: inset 4px 0 0 0 #117dbf;
+}
+
+#mainnav-menu>.active-link>a,
+#mainnav-menu>.active-link>a:hover {
+    color: #fff;
+    padding-left: 20px;
+    font-weight: 600;
+    box-shadow: inset 4px 0 0 0 #117dbf;
+}
+#mainnav-menu>.active {
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+    background-color: #a6216a;
+}
+
+#mainnav-menu>.active .active {
+    background-color: #a6216a
+}#mainnav-menu ul .active-link a,
+.menu-popover .sub-menu ul .active-link a {
+    font-weight: 600;
+    color: #fff;
+    box-shadow: inset 4px 0 0 0 #117dbf;
+    -webkit-transition: background-color .2s, padding-left .3s, box-shadow .4s;
+    transition: background-color .2s, padding-left .3s, box-shadow .4s
+}
+#container.mainnav-sm #mainnav-menu>.active-link>a,
+#container.mainnav-sm #mainnav-menu>.active-sub>a,
+#container.mainnav-sm #mainnav-menu>.active-link a:hover,
+#container.mainnav-sm #mainnav-menu>.active-sub a:hover {
+    background-color: #117dbf;
+    box-shadow: none
+}
+
+.ep-tools {
+    border-right: 1px solid #514CCA;
+}
+.ep-tools:hover {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.navbar-top-links>li>a.navbar-button {
+    background: #fff;
+    text-align: center;
+    border-left: 1px solid #ddd;
+}
+
+.navbar-top-links>li>a.navbar-button:hover {
+    border-left: 1px solid #ddd;
+    background: #f8f8f8;
+}
+
+.navbar-top-links>li>a.navbar-button:active {
+    border-left: 1px solid #ddd;
+    background: #f8f8f8;
+}
+
+.navbar-top-links>li>a.navbar-button:focus {
+    border-left: 1px solid #ddd;
+    background: #f8f8f8;
+}
+
+.ep-tools-right {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    background: #f3fafe;
+    font-size: 17px;
+    padding-left: 16px;
+    padding-right: 20px;
+    min-width: 50px;
+    max-width: 50px;
+}
+
+
+.ep-tools-login {
+    background: #f3fafe;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.ep-graph-title-icon {
+    height: 40px;
+    width: 40px;
+    transform: translate(0px, 0px);
+    color: #666;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+}
+.ep-form-toolbar {
+    background: #f6f6f6;
+    border-bottom: 1px solid #ddd;
+}
+.ep-form-toolbar-title {
+    color: #666;
+}
+
+
+.profile-report {
+    height: 150px;
+    background: black;
+    width: 100%;
+    padding: 40px 150px 0px 150px;
+    border-bottom: 1px solid white;
+}
+/* jsTree default theme */
+.jstree>.header {
+    height: 75px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #f3fafe;
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+    font-size: 11px;
+}
+.jstree>.header>a:hover {
+    cursor: pointer;
+    color: #f2522e;
+}
+
+.jstree.jstree-default {
+    background: #f3fafe;
+}
